@@ -1,15 +1,17 @@
-# gART - Generative Art
+# Generative ART
 
-## Running
+## Start
+
+Start API
 
 ```
+cd api
 PORT=8080 go run .
 ```
 
-... or with `gin` for restarting the web server on file changes:
+Start web app
 
 ```
-./proxy.sh
+cd web
+yarn start
 ```
-
-Navigate to http://localhost:8080
