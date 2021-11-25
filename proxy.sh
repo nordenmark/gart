@@ -1,0 +1,1 @@
+PORT=8081 GIN_PORT=8080 BIN_APP_PORT=8081 gin run main.go
